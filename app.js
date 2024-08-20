@@ -42,8 +42,8 @@ const updateResultDisplay=(result)=>{
 };
 choices.forEach(choice=>{
     choice.addEventListener('click',()=>{
-        const userChoice=choice.classList[0]; // Get the user's choice
-        const computerChoice=getComputerChoice(); // Get the computer's choice
+        const userChoice=choice.classList[0]; 
+        const computerChoice=getComputerChoice(); 
         const result=determineWinner(userChoice, computerChoice);
         updateResultDisplay(result);
         if (result==='user'){
