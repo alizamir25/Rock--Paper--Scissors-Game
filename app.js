@@ -1,9 +1,9 @@
-const choices = document.querySelectorAll('.choice');
-const winnerBox = document.querySelector('.winner-box h1');
-const computerScoreElem = document.querySelector('.scorebox h2:nth-of-type(1)');
-const userScoreElem = document.querySelector('.scorebox h2:nth-of-type(2)');
-let computerScore = 0;
-let userScore = 0;
+const choices=document.querySelectorAll('.choice');
+const winnerBox=document.querySelector('.winner-box h1');
+const computerScoreElem=document.querySelector('.scorebox h2:nth-of-type(1)');
+const userScoreElem=document.querySelector('.scorebox h2:nth-of-type(2)');
+let computerScore=0;
+let userScore=0;
 // Function to get a random choice for the computer
 const getComputerChoice=()=>{
     const choices = ['rock', 'paper', 'scissors'];
