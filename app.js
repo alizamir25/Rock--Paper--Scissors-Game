@@ -49,10 +49,8 @@ choices.forEach(choice => {
         const userChoice = choice.classList[0]; // Get the user's choice
         const computerChoice = getComputerChoice(); // Get the computer's choice
         const result = determineWinner(userChoice, computerChoice);
-
         // Update the result display
         updateResultDisplay(result);
-
         // Update scores
         if (result === 'user') {
             userScore++;
